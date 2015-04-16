@@ -5,10 +5,10 @@
 	<title>Meet Kim Schlesinger!</title> 
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
 	</head>
-	<header>
 	<body>
+	<header>
 		<h1>Meet Kim Schlesinger</h1>
-		<img src="assets/images/Kim.jpg" alt="Kim at the Stupa" style= width: 310px; height: 375px>
+		<img src="assets/images/Kim.jpg" alt="Kim at the Stupa" style="width:260px; height:325px" class="center"/>
 	</header>
 		<h3>Hello! My name is Kim, and I grew up in Cañon City, Colorado. Below is a brief timeline about me, and my journey leading to gSchool.</h3>
 	<section>
@@ -18,12 +18,24 @@
 		<p>2012 ➜ I move back to Fort Collins, and teach special education for two more years.</p>
 		<p>2014 ➜ I attend Bikram Yoga Teacher Training in Khao Lak, Thailand. I return to Colorado, move to Boulder, and become a yoga teacher!</p>
 		<p>2015 ➜ I decide to attend gSchool. 
-		</div>
 	</section>
 	<section>
-		<h2>   </h2>
 		<h3> Practicing yoga, sitting meditation, and spending time with family is very important to me. When I'm not working on gSchool prework, I like hiking, and going up to the Shambhala Mountain Center.</h3>
-		<h3>Check it out! <a href="http://www.shambhalamountain.org/great-stupa/">Shambhala Mountain Center</a></h3>
+	</section>
+	<section>
+	<h3>Check it out! <a href="http://www.shambhalamountain.org/great-stupa/">Shambhala Mountain Center</a></h3>
+    <script src="jquery.js"></script>
+    <script>
+    $( document ).ready(function() {
+ 
+    $( "a" ).click(function( event ) {
+ 
+        alert( "After checking out the Stupa, don't forget to check out my second page!" );
+ 
+    });
+ 
+});
+	</script>		
 	</section>
 	</body>
 	</html>
